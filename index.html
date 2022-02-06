@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Perfect Dishes At your Home" />
+    <meta name="robot" content="index,follow" />
+    <link rel="icon" href="/chef.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <title>Edward's Kitchen</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <ul class="nav-options">
+          <h1>Edward's Kitchen</h1>
+          <li><a href="#Home"> Home </a></li>
+          <li><a href="#Dishes"> Dishes </a></li>
+          <li><a href="#About-Me"> About-Me </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Home">
+      <h2>
+        Edward's Kitchen
+        <br />
+        Epic and Tasty Dishes By MasterChef Autralia Winner
+      </h2>
+    </section>
+    <section id="Dishes">
+      <header id="Dishes-head">
+        <h2>My Exotic Dishes</h2>
+        <h3>Few of My best In MasterChef Australia</h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <h4>Vanilla Pannacotta With Macarons</h4>
+          <p>
+            Macarons Filled With Pine nut and chocolate ganache,served with
+            passion fruit oil.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Mistique</h4>
+          <p>
+            A recepie of 17 elements, and Numerous Careful Steps to Mould them
+            into Perfection.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Pistachio and Coffee,Cardamom and Chocolate Croquemboche</h4>
+          <p>
+            This ozzy piece of Heaven,decorated with rose petals,pitachio nuts
+            and a sprinkle of edible glitter.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="About-Me">
+      <h2>Hi I am Edward MasterChef Season 100 Winner.</h2>
+      <p>This is My website and For your order fill out the form</p>
+      <div class="form-wrapper">
+        <header id="form-head">
+          <h3>Order Here!</h3>
+        </header>
+        <form action="https://formspree.io/f/xpzbpkay" method="post">
+          <label for="name">Name:</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <label for="email" name="_replyto">Email:</label>
+          <input type="email" placeholder="Enter Your Email" />
+          <label for="Contact-Number">Contact Number:</label>
+          <input
+            type="tel"
+            id="Conatct-Number"
+            placeholder="Enter Your Mobile Number"
+            required
+            maxlength="10"
+            name="Contact-Number"
+          />
+          <label for="Quantity">Quantity</label>
+          <input type="number" required name="Quantity" />
+          <select name="Dishes" id="dishes">
+            <option value="Vanilla Pannacotta With Macarons">
+              Vanilla Pannacotta With Macarons
+            </option>
+            <option value="Mistique">Mistique</option>
+            <option
+              value="Pistachio and Coffee,Cardamom and Chocolate Croquemboche"
+            >
+              Pistachio and Coffee,Cardamom and Chocolate Croquemboche
+            </option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

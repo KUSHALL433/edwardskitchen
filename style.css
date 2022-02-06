@@ -1,0 +1,165 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  color: pink;
+  text-decoration: none;
+}
+header {
+  min-height: 10vh;
+}
+.nav h1 {
+  font-size: 2.4rem;
+}
+.main-head {
+  position: sticky;
+  top: 0px;
+}
+.nav-options {
+  list-style: none;
+  font-size: 1.8rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(blue, darkblue);
+  color: pink;
+  font-family: "Quintessential", cursive;
+}
+
+#Home {
+  display: flex;
+  justify-content: space-around;
+
+  background-image: url("/pexels-ella-olsson-1640777.jpg");
+  min-height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+#Home h2 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Yellowtail", cursive;
+}
+#Dishes {
+  background: linear-gradient(indigo, purple, deeppink, #ff33cc);
+  min-height: 100vh;
+}
+#Dishes-head {
+  background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+#Dishes-head h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+#Dishes-head h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+.cards {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3), 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+.card h4 {
+  font-size: 2.3rem;
+}
+.card p {
+  font-size: 2rem;
+  padding: 1rem;
+}
+#About-Me {
+  min-height: 100vh;
+  background-image: url("/pexels-lukas-349609.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lobster Two", cursive;
+  flex-wrap: wrap;
+}
+#About-Me h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+#About-Me p {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+#form-head {
+  text-align: center;
+  font-size: 2.7rem;
+}
+.form-wrapper {
+  background: rgba(236, 7, 99, 0.8);
+  color: white;
+  border-radius: 10px;
+  width: 47vw;
+}
+#About-Me form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 1rem;
+}
+#dishes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+button {
+  font-size: 2rem;
+  padding: 1rem;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(236, 7, 99, 0.1);
+  border: none;
+  margin-top: 2rem;
+  font-family: "Lobster Two", cursive;
+  cursor: pointer;
+}
+#dishes {
+  width: 79px;
+  height: 30px;
+}
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 40%;
+  }
+  nav {
+    text-align: center;
+  }
+}
